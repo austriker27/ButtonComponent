@@ -1,5 +1,9 @@
 # Building a component button
 
+// mouse 
+on hover of whole section, circle bg fills in with secondary color and emits a circle
+
+
 ## Project setup
 ```
 npm install
