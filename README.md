@@ -1,7 +1,7 @@
 # Building a component button
 
-// mouse 
-on hover of whole section, circle bg fills in with secondary color and emits a circle
+## button animation:
+on hover of whole section, circle bg fills in with secondary color, background grows without changing svg icon and emits a circle
 
 
 ## Project setup
