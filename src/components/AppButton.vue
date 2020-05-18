@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="inline-block px-4 py-6 transition-colors duration-150 ease-in-out cursor-pointer md:px-8 md:py-12 lg:px-16 lg:py-20 group"
+    class="inline-block px-4 py-6 transition-colors duration-150 ease-in-out scale-100 cursor-pointer md:px-8 md:py-12 lg:px-16 lg:py-20 group"
     :class="[ isDark ? 'bg-black' : 'bg-transparent' ]" 
     >
       <div class="flex items-center justify-between">
@@ -10,7 +10,7 @@
           {{ buttonText }}
       </p>
       <div 
-        class="flex items-center justify-center w-8 h-8 p-1 ml-4 transition-colors duration-150 ease-in-out bg-transparent border-2 rounded-full md:w-10 md:h-10" 
+        class="flex items-center justify-center w-8 h-8 p-1 ml-4 transition-colors transition-transform duration-300 ease-in-out transform bg-transparent border-2 rounded-full md:w-10 md:h-10 group-hover:scale-150" 
         :class="[ isDark ? 'border-white group-hover:bg-teal-500 group-hover:border-teal-500' : 'border-black group-hover:bg-black' ]" 
         >
         <svg 
