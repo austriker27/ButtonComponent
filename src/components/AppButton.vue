@@ -1,7 +1,7 @@
 <template>
   <div 
     class="inline-block px-4 py-6 transition-colors duration-150 ease-in-out scale-100 cursor-pointer app-button md:px-8 md:py-12 lg:px-16 lg:py-20 group"
-    :class="[ isDark ? 'bg-black' : 'bg-transparent' ]" 
+    :class="[ isDark ? 'bg-black' : 'bg-gray-200' ]" 
     >
       <div class="flex items-center justify-between">
       <p 

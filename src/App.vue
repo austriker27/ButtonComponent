@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col items-center justify-center h-screen antialiased bg-gray-200">
+  <div id="app" class="flex flex-col items-center justify-center h-screen antialiased bg-gray-300">
     <HelloWorld />
   </div>
 </template>
