@@ -2,6 +2,9 @@
 module.exports = {
   theme: {
     extend: {
+        scale: {
+            '80': '.80',
+        }
     },
   },
   variants: {
