@@ -15,7 +15,7 @@
         :class="[ isDark ? 'border-white group-hover:bg-teal-500 group-hover:border-teal-500' : 'border-black group-hover:bg-black' ]" 
         >
         <svg 
-            class="relative inline-block transition-colors transition-transform duration-150 duration-700 ease-in-out transform fill-current group-hover:scale-80" 
+            class="relative inline-block w-full h-full transition-colors transition-transform duration-150 duration-700 ease-in-out transform fill-current group-hover:scale-80" 
             :class="[ isDark ? 'text-teal-500 group-hover:text-white' : 'text-orange-600 group-hover:text-white' ]" 
             fill="none" 
             stroke-linecap="round" 
